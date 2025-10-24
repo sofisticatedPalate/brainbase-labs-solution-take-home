@@ -13,6 +13,10 @@ backend/.mypy_cache/
 backend/.pytest_cache/
 backend/.DS_Store
 
+# Root virtualenv
+.venv/
+.venv/*
+
 # macOS
 .DS_Store
 

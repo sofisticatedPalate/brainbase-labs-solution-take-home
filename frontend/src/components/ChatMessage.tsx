@@ -17,7 +17,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
             : 'bg-gray-200 text-gray-800 rounded-bl-none'
         }`}
       >
-        <p className="whitespace-pre-wrap">{JSON.stringify(message.content)}</p>
+        <p className="whitespace-pre-wrap">{message.content}</p>
       </div>
     </div>
   );
